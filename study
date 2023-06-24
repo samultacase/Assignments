@@ -1,0 +1,56 @@
+package samproject;
+import java.util.*;
+public class study
+{
+
+	public static void main(String[] args) 
+	{
+		        int n;
+		        System.out.println("Enter the test score:");
+		        Scanner obj=new Scanner(System.in);
+		        n=obj.nextInt();
+		 
+		   
+		        if (n>=90 & n<=100)
+		        {
+		            System.out.println(
+		                "A");
+		        }
+		        else if (n>=80 & n<=89)
+		        {
+		            System.out.println(
+		                "B");
+		        }
+		        
+		        else if (n>=70 & n<=79) 
+		        {
+		            System.out.println(
+		                "C");
+		        }
+		        
+		        else if (n>=60 & n<=69) 
+		        {
+		            System.out.println(
+		                "D");
+		        }
+		        else if (n>=50 & n<=59) 
+		        {
+		            System.out.println(
+		                "E");
+		        }
+		        else if (n<50) 
+		        {
+		            System.out.println(
+		                "F");
+		        }
+		        else
+		        {
+		            System.out.println(
+		                "The grade you entered is not valid!");
+		        }
+		    }
+
+
+	}
+
+
