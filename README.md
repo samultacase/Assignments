@@ -1,4 +1,7 @@
 # Assignments
+
+Day  2
+
 Solve the below given assignment for the respective class to reach certificate eligibility
 Assignment:
 
@@ -18,16 +21,14 @@ E: 50 - 59
 
 F: Below 50
 
-Instructions:
 
 
 
-Create a class called "GradeCalculator".
 
-Inside the main method, prompt the user to enter their test score.
+Day 3
 
-Read the input from the user and store it in a variable.
+Solve the below given assignment for the respective class to reach certificate eligibility
+Write a Java program that finds and displays the maximum number in an array of integers along with its position/index. However, if there are multiple occurrences of the maximum number, your program should display the position/index of the first occurrence only.
 
-Use conditional statements (if-else) and logical operators to determine the grade based on the test score.
 
-Print the grade to the console.
+
