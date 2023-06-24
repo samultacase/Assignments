@@ -1,0 +1,65 @@
+package samproject;
+import java.util.*;
+public class study
+{
+
+	public static void main(String[] args) 
+	{
+		        int n;
+		        System.out.println("Enter the test score:");
+		        Scanner obj=new Scanner(System.in);
+		        n=obj.nextInt();
+		        switch(n/10)
+		        {
+		        case 10: break;
+		        case 9 :
+		        {
+		            System.out.println(
+		                "A");
+		            break;
+		        }
+		        case 8: 
+		        {
+		            System.out.println(
+		                "B");
+		            break;
+		        }
+		        case 7:
+		        {
+		            System.out.println(
+		                "C");
+		            break;
+		        }
+		        case 6:
+		        {
+		            System.out.println(
+		                "D");
+		            break;
+		        }
+		        case 5: 
+		        {
+		            System.out.println(
+		                "E");
+		            break;
+		        }
+		        case 4: 
+		        {
+		            System.out.println(
+		                "F");
+		            break;
+		        }
+		        default:
+		        {
+		            System.out.println(
+		                "The grade you entered is not valid!");
+		        }
+		        }
+		 
+		   
+		       
+    }
+
+
+}
+
+
